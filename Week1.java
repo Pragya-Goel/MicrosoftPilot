@@ -1,3 +1,6 @@
+**********WEEK1************
+
+//IMPLEMENT
 package Homework;
 
 import java.util.HashMap;
@@ -7,7 +10,7 @@ import java.lang.*;
 public class Week1 {
 	// validating the string for null and spaces. 
 	public static boolean ValidateString(String s) {
-		if(s==null || s.contains(" ")) {
+		if(s.isEmpty() || s.contains(" ")) {
 			return false;
 		}
 		return true;
@@ -46,3 +49,12 @@ public class Week1 {
 	}
 
 }
+/*TEST
+Input String : output
+ababba       : 2
+frffrtf      : 3 
+gath aha     : invalid string (spaces are considered)
+@ah.ala/     : 4 (special characters considered)
+""           : invalid string (empty string considered)
+AbcDa        : 5  (case sentivity considered)
+*/
