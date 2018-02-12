@@ -28,7 +28,7 @@ public class Week1 {
 				count++;
 				j++;
 			}
-			// maxlength keeps the maximum length substring of non repeating characters till the current character i
+			// maxlength keeps the maximum length substring of non repeating characters 
 			if(count>maxlength) {
 				maxlength=count;
 			}
