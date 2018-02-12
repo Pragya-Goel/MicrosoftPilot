@@ -7,13 +7,8 @@ import java.lang.*;
 public class Week1 {
 	// validating the string for null and spaces. 
 	public static boolean ValidateString(String s) {
-		if(s==null) {
+		if(s==null || s.contains(" ")) {
 			return false;
-		}
-		for(int i=0;i<s.length();i++) {
-			if(s.charAt(i)==' ') {
-				return false;
-			}
 		}
 		return true;
 	}
