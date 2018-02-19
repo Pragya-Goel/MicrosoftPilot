@@ -85,4 +85,14 @@ public class Week2 {
 	}
 
 }
+/* TEST
+INPUT  :  OUTPUT
+0          no triplet
+2          no triplet
+5 [1,2,3,-1,-2] : -2 -1 3
+6 [5,-4,-1,-2,6] : -4 -2 6
+                   -4 -1 5
+4 [1,2,3,4]      : no triplet
+*/
+		   
 
