@@ -23,7 +23,7 @@ public class Week5 {
     		return false;
     	}
     	return (T.data==S.data && AreSame(T.left,S.left) && AreSame(T.right,S.right));
-    }
+      }
     public static boolean AreSubtree(TreeNode T, TreeNode S) {
     	if(T==null) {
     		return true;
@@ -41,13 +41,13 @@ public class Week5 {
 	public static void main(String[] args) {
 		TreeNode S = new TreeNode(12);
 		/* Tree S
-                     12
+                          12
 	                /   \ 
-		           18   34
-                  /	 \ 	/ \
-                 8   10 4  6
-                            \
-                             2                            
+		       18   34
+                      /	 \  / \
+                     8   10 4  6
+                                \
+                                 2                            
 */
 		S.left= new TreeNode(18);
 		S.right=new TreeNode(34);
@@ -62,7 +62,7 @@ public class Week5 {
 	T.right=new TreeNode(6);
 	T.right.right= new TreeNode(2);
 	 /*
-	             34
+	         34
                	/   \
                 4   6
                       \
